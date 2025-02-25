@@ -1,0 +1,236 @@
+/* Store.css */
+.main-content-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Common styles for boxed sections */
+.box {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+/* Filters Section */
+.filters-section {
+  margin-bottom: 20px;
+}
+
+.filters-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.category-filter,
+.tag-filter {
+  margin-bottom: 20px;
+}
+
+.category-filter h3,
+.tag-filter h3 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.category-filter select,
+.tag-filter ul {
+  width: 100%;
+}
+
+.category-filter select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.tag-filter ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-filter li {
+  background: #e0e0e0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.tag-filter li.selected {
+  background: #007bff;
+  color: white;
+}
+
+/* Store Right Section */
+.store-right {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.contributors-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contributors-section li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.highlight-section {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.highlight-section h2 {
+  margin-bottom: 10px;
+}
+
+.highlight-section .highlight-workflow {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Workflow List */
+/* Workflow List */
+.workflow-list ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.workflow-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.workflow-item:hover {
+  transform: translateY(-5px);
+}
+
+.workflow-info {
+  padding-right: 20px;
+}
+
+.workflow-info h4 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.workflow-info p {
+  margin: 0 0 15px;
+  color: #555;
+}
+
+.workflow-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.workflow-tags .tag {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.workflow-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.workflow-actions button {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #715b5b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.2s;
+}
+
+.workflow-actions button:last-child {
+  margin-bottom: 0;
+}
+
+.workflow-actions button:hover {
+  background: #0056b3;
+}
+
+.workflow-actions button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+/* FeedbackPopup.css */
+.feedback-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  max-width: 90%;
+}
+
+.feedback-popup-content h2 {
+  margin-bottom: 10px;
+}
+
+.feedback-popup-content ul {
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.feedback-popup-content ul li {
+  margin-bottom: 5px !important;
+}
+
+.feedback-popup-content textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-popup-content button {
+  margin-right: 10px;
+}

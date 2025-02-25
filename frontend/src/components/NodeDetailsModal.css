@@ -1,0 +1,93 @@
+.modal {
+  position: fixed !important;
+  top: 10% !important; /* Offset from the top to avoid the header */
+  right: 0 !important;
+  width: 320px !important; /* Increased width */
+  height: 90% !important; /* Increased height */
+  background: rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: flex-start !important; /* Align to the top of the available space */
+  z-index: 1100 !important; /* Higher z-index to overlay GeneralWorkflowModal */
+  transition: width 0.3s , height 0.3s !important; /* Smooth transition for width and height */
+}
+
+.modal-content {
+  background: #fff !important;
+  padding: 10px !important; /* Reduced padding */
+  border-radius: 5px 0 0 5px !important;
+  width: 100% !important;
+  max-height: 100% !important; /* Ensure content fits within the modal */
+  overflow-y: auto !important; /* Ensure content is scrollable if too big */
+  font-size: 12px !important; /* Decreased font size */
+}
+
+.form-group {
+  margin-bottom: 10px !important; /* Reduced margin-bottom */
+}
+
+.form-group label {
+  display: block !important;
+  margin-bottom: 3px !important; /* Reduced margin-bottom */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100% !important;
+  padding: 6px !important; /* Reduced padding */
+  box-sizing: border-box !important;
+  font-size: 12px !important; /* Ensure consistent font size */
+}
+
+.modal button {
+  background-color: #715b5b !important;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.modal button:hover {
+  background: #0056b3 !important;
+}
+
+.overlay {
+  z-index: 1000 !important;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .modal {
+    width: 40% !important;
+    height: 70% !important; /* Reduced height for medium screens */
+  }
+
+  .modal-content {
+    border-radius: 5px !important;
+    font-size: 14px !important; /* Slightly larger font for better readability */
+  }
+
+  .modal button {
+    padding: 10px 15px !important; /* Slightly larger padding for touch devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 95% !important;
+    height: 60% !important; /* Further reduced height for small screens */
+    top: 5% !important; /* Adjust top to center the modal better on small screens */
+  }
+
+  .modal-content {
+    border-radius: 5px !important;
+    font-size: 16px !important; /* Larger font for small screens */
+  }
+
+  .modal button {
+    padding: 12px 20px !important; /* Larger padding for touch devices */
+  }
+}

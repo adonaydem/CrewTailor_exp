@@ -1,0 +1,364 @@
+{
+    "workflows": [
+        {
+            "metadata": {
+              "description": "This workflow outlines the step-by-step process to effectively launch a new product to the market.",
+              "name": "Product_Launch_Workflow",
+              "pad": "",
+              "people": [
+                "john",
+                "jane"
+              ],
+              "public": false,
+              "to_do_list": [
+                "Market Research",
+                "Product Design",
+                "Feasibility Study",
+                "Production Planning",
+                "Marketing and Launch Strategy"
+              ]
+            },
+            "nodes": [
+              {
+                "children": [
+                  "2",
+                  "3"
+                ],
+                "description": "Conduct thorough market research to identify target demographics, market size, and competitive landscape.",
+                "human_direction": "yes",
+                "id": "1",
+                "name": "Market_Analyst",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management"
+                ]
+              },
+              {
+                "children": [
+                  "3"
+                ],
+                "description": "Develop initial product designs and prototypes based on the market research findings.",
+                "human_direction": "yes",
+                "id": "2",
+                "name": "Product_Designer",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "database_management",
+                  "task_management",
+                  "project_management"
+                ]
+              },
+              {
+                "children": [
+                  "4"
+                ],
+                "description": "Perform a financial feasibility study to estimate costs, pricing, and potential profitability.",
+                "human_direction": "yes",
+                "id": "3",
+                "name": "Financial_Analyst",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management"
+                ]
+              },
+              {
+                "children": [
+                  "5"
+                ],
+                "description": "Plan the production process, including sourcing materials, manufacturing, and logistics.",
+                "human_direction": "no",
+                "id": "4",
+                "name": "Operation_Manager",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management"
+                ]
+              },
+              {
+                "children": [
+                  "6"
+                ],
+                "description": "Develop and execute a comprehensive marketing and launch strategy to promote the new product.",
+                "human_direction": "yes",
+                "id": "5",
+                "name": "Marketing_Manager",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management"
+                ]
+              },
+              {
+                "children": [],
+                "description": "Review all preparations, confirm everything is ready, and prepare the final launch report.",
+                "human_direction": "no",
+                "id": "6",
+                "name": "Final_Reviewer",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management"
+                ]
+              }
+            ]
+          },
+          {
+            "metadata": {
+              "description": "This workflow outlines the step-by-step process for writing an essay, from brainstorming to finalizing the draft.",
+              "name": "Essay_Writing_Workflow",
+              "pad": "",
+              "people": [
+                "writer",
+                "editor"
+              ],
+              "public": false,
+              "to_do_list": [
+                "Brainstorming",
+                "Drafting",
+                "Revising",
+                "Editing",
+                "Finalizing"
+              ]
+            },
+            "nodes": [
+              {
+                "children": [
+                  "2"
+                ],
+                "description": "Brainstorm ideas and research the topic to generate initial concepts.",
+                "human_direction": "yes",
+                "id": "1",
+                "name": "Brainstormer",
+                "pad": "",
+                "people": [
+                  "writer"
+                ],
+                "to_do_list": [
+                  "Research Topic",
+                  "Generate Ideas"
+                ],
+                "toolkits": [
+                  "file_management",
+                  "database_management"
+                ]
+              },
+              {
+                "children": [
+                  "3"
+                ],
+                "description": "Write the initial draft based on the brainstormed ideas and research.",
+                "human_direction": "yes",
+                "id": "2",
+                "name": "Draft Writer",
+                "pad": "",
+                "people": [
+                  "writer"
+                ],
+                "to_do_list": [
+                  "Write Draft",
+                  "Organize Content"
+                ],
+                "toolkits": [
+                  "file_management",
+                  "task_management"
+                ]
+              },
+              {
+                "children": [
+                  "4"
+                ],
+                "description": "Revise the draft to improve structure, clarity, and content flow.",
+                "human_direction": "yes",
+                "id": "3",
+                "name": "Reviser",
+                "pad": "",
+                "people": [
+                  "writer"
+                ],
+                "to_do_list": [
+                  "Revise Draft",
+                  "Check Flow"
+                ],
+                "toolkits": [
+                  "file_management",
+                  "task_management"
+                ]
+              },
+              {
+                "children": [
+                  "5"
+                ],
+                "description": "Edit the revised draft for grammar, style, and accuracy.",
+                "human_direction": "yes",
+                "id": "4",
+                "name": "Editor",
+                "pad": "",
+                "people": [
+                  "editor"
+                ],
+                "to_do_list": [
+                  "Edit Grammar",
+                  "Check Style"
+                ],
+                "toolkits": [
+                  "file_management",
+                  "task_management"
+                ]
+              },
+              {
+                "children": [],
+                "description": "Finalize the essay by ensuring everything is in order and ready for submission.",
+                "human_direction": "no",
+                "id": "5",
+                "name": "Finalizer",
+                "pad": "",
+                "people": [
+                  "writer"
+                ],
+                "to_do_list": [
+                  "Review Final Draft",
+                  "Prepare for Submission"
+                ],
+                "toolkits": [
+                  "file_management",
+                  "project_management"
+                ]
+              }
+            ]
+          },
+          
+          {
+            "metadata": {
+              "description": "This Workflow is going to complete step by step process to effectively look for and organize an event for comapny employees' gatherings",
+              "name": "Event_organizing_workflow",
+              "pad": "",
+              "people": [],
+              "to_do_list": [
+                "Event Coordination",
+                "Venue Management",
+                "Activities Planning",
+                "Catering Arrangements",
+                "Logistics Coordination"
+              ],
+              "public": false
+            },
+            "nodes": [
+              {
+                "children": [
+                  "2"
+                ],
+                "description": "Define the event's purpose, overall agenda, and desired outcomes consicely",
+                "human_direction": "yes",
+                "id": "1",
+                "name": "Planner",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management",
+                  "event_management"
+                ]
+              },
+              {
+                "children": [
+                  "3"
+                ],
+                "description": "Given the plan, Find a suitable outdoor venue",
+                "human_direction": "yes",
+                "id": "2",
+                "name": "Venue_manager",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "task_management",
+                  "event_management"
+                ]
+              },
+              {
+                "children": [
+                  "4"
+                ],
+                "description": "Provide activity schedule of the whole event",
+                "human_direction": "yes",
+                "id": "3",
+                "name": "Activities_coordinator",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "event_management"
+                ]
+              },
+              {
+                "children": [
+                  "5"
+                ],
+                "description": "Provide catering plan and menu.",
+                "human_direction": "yes",
+                "id": "4",
+                "name": "Catering_manager",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management",
+                  "event_management"
+                ]
+              },
+              {
+                "children": [
+                  "6"
+                ],
+                "description": "Study the needs of all worker memebers and provide list of needed resources",
+                "human_direction": "no",
+                "id": "5",
+                "name": "Logistics_coordinator",
+                "pad": "",
+                "people": [],
+                "to_do_list": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management",
+                  "event_management",
+                  "finance&economics_apipack"
+                ]
+              },
+              {
+                "id": "6",
+                "name": "Compiler",
+                "description": "Compiles everything done by the team and provides full report",
+                "human_direction": "no",
+                "agent_type": [],
+                "children": [],
+                "to_do_list": [],
+                "people": [],
+                "toolkits": [
+                  "file_management",
+                  "database_management",
+                  "event_management"
+                ]
+              }
+            ]
+          }
+    ]
+}

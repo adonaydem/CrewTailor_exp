@@ -1,0 +1,215 @@
+.box {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.dashboard-overview {
+  background-color: #e3f2fd;
+  padding: 30px;
+  font-size: 1.1em;
+}
+
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.card {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.main-content-c {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.compute-points-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.compute-points {
+  background-color: #ffdf00;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.compute-points h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.compute-points p {
+  font-size: 18px;
+  color: #333;
+}
+
+.buttonsHolder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.visibleToggleButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.visibleToggleButton:hover {
+  background-color: #0056b3;
+}
+
+.challenge-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.challenge-form select,
+.challenge-form input,
+.challenge-form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.challenge-select{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+.challenge-form button {
+  background-color: #715b5b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.challenge-form button:hover {
+  background-color: #0056b3;
+}
+/* Modal Styles */
+.modal-c {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-c-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .community-challenges-box {
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    overflow: hidden; /* Ensure no overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .community-challenge-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .community-challenge-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+  .community-challenge-item:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+  }
+  
+  .challenge-workflow-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .challenge-content {
+    margin-bottom: 5px;
+  }
+  
+  .challenge-bid {
+    color: #777;
+  }
+  
+  .challenge-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between select and button */
+    margin-top: 10px;
+  }
+  
+  .workflow-select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .enter-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #715b5b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .enter-button:hover {
+    background-color: #0056b3;
+  }
+  

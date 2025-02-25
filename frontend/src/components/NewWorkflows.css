@@ -1,0 +1,191 @@
+.main-content-new {
+    padding: 20px;
+  }
+  
+  .workflow-navigation {
+    margin-top: 10px;
+  }
+  
+  .workflow-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+  }
+  
+  .workflow-navigation ul li {
+    cursor: pointer;
+    padding: 8px 12px; /* Adjusted padding for smaller size */
+    border-radius: 5px 5px 0 0; /* Curved top edges */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd; /* Light border */
+    transition: background-color 0.3s ease;
+    font-size: 14px; /* Adjusted font size */
+    margin-right: 5px; /* Small margin between navigation items */
+  }
+  
+  .workflow-navigation ul li.active {
+    background-color: #ddd;
+  }
+  
+  .new-workflows {
+    position: relative;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-top: 10px; /* Increased margin for separation */
+    padding: 0px; /* Padding inside the container */
+  }
+  
+  .workflow-form {
+    max-width: 800px; /* Adjust form width as needed */
+    margin: 0 auto; /* Center align the form */
+  }
+  
+  .workflow-section {
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  .general-section {
+    background-color: #fff; /* White background for emphasis */
+    padding: 20px; /* Increased padding for emphasis */
+    border-radius: 8px; /* Rounded corners for emphasis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+  }
+  
+  .general-section h3 {
+    margin-bottom: 10px; /* Space below section headings */
+    font-size: 20px; /* Larger font size for section headings */
+    color: #333; /* Darker text color */
+    text-align: center; /* Center align heading */
+  }
+  
+  .general-section .form-group {
+    margin-bottom: 15px; /* Space between form elements */
+  }
+  
+  .general-section label {
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .general-section input[type="text"],
+  .general-section textarea,
+  .general-section select {
+    width: 100%; /* Full width for inputs, textareas, and selects */
+    padding: 10px; /* Padding for inputs, textareas, and selects */
+    font-size: 14px; /* Font size for inputs, textareas, and selects */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs, textareas, and selects */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .general-section textarea {
+    resize: vertical; /* Allow vertical resizing for textareas */
+  }
+  
+  .general-section button[type="button"] {
+    margin-top: 15px; /* Space above buttons */
+    padding: 10px 20px; /* Button padding */
+    font-size: 14px; /* Button font size */
+    cursor: pointer;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px; /* Rounded button corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .general-section button[type="button"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .workers-section {
+    margin-top: 20px; /* Space above workers section */
+  }
+  
+  .workers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between worker nodes */
+  }
+  
+  .worker-node {
+    background-color: #fff; /* White background for worker nodes */
+    padding: 15px; /* Padding inside worker nodes */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners for worker nodes */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for worker nodes */
+  }
+  
+  .worker-node h4 {
+    margin-top: 0; /* No margin above worker node headings */
+    margin-bottom: 10px; /* Space below worker node headings */
+  }
+  
+  .worker-node .form-group {
+    margin-bottom: 10px; /* Space between form elements inside worker nodes */
+  }
+  
+  .worker-node input[type="text"],
+  .worker-node textarea,
+  .worker-node select {
+    width: 100%; /* Full width for inputs, textareas, and selects */
+    padding: 8px; /* Padding for inputs, textareas, and selects */
+    font-size: 14px; /* Font size for inputs, textareas, and selects */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs, textareas, and selects */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .worker-node textarea {
+    resize: vertical; /* Allow vertical resizing for textareas */
+  }
+  
+  .worker-node button {
+    margin-top: 10px; /* Space above add worker button */
+    padding: 8px 12px; /* Button padding */
+    font-size: 14px; /* Button font size */
+    cursor: pointer;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px; /* Rounded button corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .worker-node button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .main-content-new button[type="submit"] {
+    margin-top: 20px; /* Space above submit button */
+    padding: 12px 24px; /* Button padding */
+    font-size: 16px; /* Button font size */
+    cursor: pointer;
+    background-color: #28a745; /* Green submit button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px; /* Rounded button corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-content-new button[type="submit"]:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  .workers-section button.add-worker-button {
+    margin-top: 10px; 
+    font-size: 14px; 
+    transition: background-color 0.3s ease;
+    background-color: #715b5b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .workers-section button.add-worker-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

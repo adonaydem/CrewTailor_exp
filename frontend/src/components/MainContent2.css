@@ -1,0 +1,226 @@
+.main-content-main1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.notifications, .settings, .help-documentation {
+  border: none;
+}
+
+.box {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.comm-challenges-item {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.comm-challenges-item:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.comm-challenges-item:hover {
+  background-color: #f1f1f1; /* Highlight on hover */
+}
+
+.challenge-workflow-name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.challenge-content {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.challenge-bid {
+  display: block;
+  color: #777;
+}
+
+.dashboard-overview {
+  background-color: #e3f2fd; /* Light blue background */
+  padding: 30px;
+  font-size: 1.1em; /* Increase font size */
+}
+
+.dashboard-overview .summary-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.2em; /* Larger text in cards */
+}
+
+.main-content-main1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.buttonsHolder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visibleToggleButton {
+  background: #715b5b !important;
+  color: white !important;
+  border: none !important;
+  width: 150px !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.workflow-list {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.workflow-list:hover {
+  cursor: pointer;
+}
+
+.workflow-name2 {
+  font-weight: bold;
+}
+
+.workflow-timestamp {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.main-content-main h2, .main-content-main h3 {
+  margin: 0 0 10px;
+}
+
+.workflows-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+.workflows-section h3 {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.workflow-list {
+  overflow: auto;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.log-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  list-style-type: none;
+}
+
+.log-message {
+  font-size: 12px;
+  color: #333;
+}
+
+.workflow-name {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #888;
+  margin-left: 5px;
+}
+
+.compute-points-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.compute-points {
+  background-color: #ffdf00;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.compute-points h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.compute-points p {
+  font-size: 18px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .main-content-main1 {
+    grid-template-columns: 1fr; /* Single column layout on small screens */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .dashboard-overview .summary-cards {
+    grid-template-columns: 1fr; /* Single column layout on small screens */
+  }
+
+
+  .workflow-list {
+    flex-direction: column;
+  }
+
+  .workflow-name2, .workflow-timestamp {
+    font-size: 1em;
+  }
+
+  .compute-points {
+    width: 100%;
+    padding: 10px;
+  }
+}

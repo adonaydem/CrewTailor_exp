@@ -1,0 +1,143 @@
+.workflow-visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .workflow-form {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .workflow-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .visualizer-header button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .visualizer-header button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  
+.sidebar {
+  width: 200px;
+  background-color: #3e759c;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 0px; /* Adjust width when collapsed */
+  padding: 0px; /* Adjust padding when collapsed */
+}
+
+.console-footer {
+  background-color: rgba(241, 241, 241, 0.5);
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+  resize: vertical;
+  overflow-y: auto;
+}
+
+.drag-handle {
+  height: 10px;
+  background-color: #ccc;
+  cursor: ns-resize;
+  margin-bottom: 10px;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.user {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #f8d7da;
+  align-self: flex-start;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-area button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #0056b3;
+}
+
+.react-flow__node-default {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #d72020;
+  border-radius: 5px;
+}
+
+.react-flow__edge-path {
+  stroke: #13d980;
+  stroke-width: 2px;
+}

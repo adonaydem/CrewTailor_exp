@@ -1,0 +1,67 @@
+{
+    "store_metadata": {
+      "categories": ["Project Management", "Software Development", "Content Creation", "Marketing"],
+      "tags": ["Agile", "Scrum", "DevOps", "SEO"],
+      "popular_tags": ["CI/CD", "Blogging", "Social Media"],
+      "top_contributors": []
+    },
+    "app_challenges": {
+      "challenge_categories": [
+        {
+          "key": "task_automation",
+          "name": "Task Automation",
+          "challenges": [
+            {
+              "id": "task_automation_1",
+              "content": "Automate the process of summarizing daily news articles, categorize them by relevance, and send a detailed report with key insights to a team of executives.",
+              "points": 25
+            }
+          ]
+        },
+        {
+          "key": "data_analysis",
+          "name": "Data Analysis",
+          "challenges": [
+            {
+              "id": "data_analysis_1",
+              "content": "Analyze large datasets from multiple sources, identify significant trends, anomalies, and predict future outcomes using machine learning models. Create a comprehensive visual report for stakeholders.",
+              "points": 30
+            }
+          ]
+        },
+        {
+          "key": "creative_writing",
+          "name": "Creative Writing",
+          "challenges": [
+            {
+              "id": "creative_writing_1",
+              "content": "Craft a complex narrative that intertwines three separate storylines into a single, cohesive plot, exploring deep themes of morality and human nature.",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "key": "event_planning",
+          "name": "Event Planning",
+          "challenges": [
+            {
+              "id": "event_planning_1",
+              "content": "Plan and execute a large-scale international conference, coordinating with vendors across multiple time zones, managing a diverse team, and ensuring all logistics are seamlessly handled within a strict budget.",
+              "points": 35
+            }
+          ]
+        },
+        {
+          "key": "customer_support",
+          "name": "Customer Support",
+          "challenges": [
+            {
+              "id": "customer_support_1",
+              "content": "Develop a scalable customer support strategy for a global product launch, handle escalations from high-profile clients, and optimize support processes to reduce response times and increase satisfaction.",
+              "points": 30
+            }
+          ]
+        }
+      ]
+    }
+  }

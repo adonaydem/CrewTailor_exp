@@ -1,0 +1,53 @@
+.modal {
+    position: fixed;
+    top: 10%; /* Offset from the top to avoid the header */
+    right: 0;
+    width: 250px; /* Reduced width */
+    height: 80%; /* Reduced height to avoid console footer */
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start; /* Align to the top of the available space */
+    z-index: 1000; /* Ensure it appears above the nodes */
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 10px; /* Reduced padding */
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    max-height: 100%; /* Ensure content fits within the modal */
+    overflow-y: auto; /* Ensure content is scrollable if too big */
+    font-size: 12px; /* Decreased font size */
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Reduced margin-bottom */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 3px; /* Reduced margin-bottom */
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 6px; /* Reduced padding */
+    box-sizing: border-box;
+    font-size: 12px; /* Ensure consistent font size */
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px; /* Reduced padding */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
