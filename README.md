@@ -8,7 +8,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICE
 
 ## Objectives  
 
-- **Make AI Transparent**: Enable users to design and oversee AI workflows, ensuring clarity and control over AI-driven processes.  
+- **Explainable AI**: Enable users to design and oversee AI workflows, ensuring clarity and control over AI-driven processes.  
 - **Simplify AI Interaction**: Provide an intuitive platform where users can structure prompts, define agent behaviors, and create complex automation with ease.  
 - **Empower Users**: Allow anyone to harness AI capabilities without technical expertise, unlocking new possibilities for automation and collaboration.  
 
