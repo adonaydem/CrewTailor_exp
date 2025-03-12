@@ -15,9 +15,8 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICE
 ## Features  
 
 ### 1. **Creating Workflows (Teams)**  
-Design AI-driven workflows using:  
-- Forms, **graph-based editors**, and an **LLM assistant**.  
-- Custom tools, task lists, and inter-agent connections.  
+- Design AI-driven workflows using Forms, **graph-based editors**, and an **LLM assistant**.  
+- Adjust custom tools, task lists, and design inter-agent connections.  
 
 ### 2. **Run**  
 An interactive space to engage with AI agents.  
