@@ -1,9 +1,41 @@
 # CrewTailor
 
-CrewTailor is a full-stack demo application with a React frontend and a Flask backend.
+CrewTailor is a No-Code Multi-Agent LLM design platform built specifically for non-technical users. Independent Agents are combined together to operate under the user's guide. It empowers users to design, manage, and optimize AI workflows without coding or API knowledge requirements.
+
 
 ## License  
 This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
+
+## Objectives  
+
+- **Make AI Transparent**: Enable users to design and oversee AI workflows, ensuring clarity and control over AI-driven processes.  
+- **Simplify AI Interaction**: Provide an intuitive platform where users can structure prompts, define agent behaviors, and create complex automation with ease.  
+- **Empower Users**: Allow anyone to harness AI capabilities without technical expertise, unlocking new possibilities for automation and collaboration.  
+
+## Features  
+
+### 1. **Creating Workflows (Teams)**  
+Design AI-driven workflows using:  
+- Forms, **graph-based editors**, and an **LLM assistant**.  
+- Custom tools, task lists, and inter-agent connections.  
+
+### 2. **Run**  
+An interactive space to engage with AI agents.  
+- Multiple Chatboxes for real-time interactions.  
+- File and database management for actionable collaboration.  
+
+### 3. **Edit**  
+Modify and optimize team configurations effortlessly.  
+
+### 4. **Store**  
+A **community hub** where users can:  
+- Share, explore, and react to public workflows.  
+- The feedback given by the community can be integrated into the AI system automatically.
+
+### 5. **Doli' Challenge**  
+An **AI-powered game engine** to encourage experimentation and competition.  
+- Workflows are tested, ranked, and refined through challenges.  
+
 
 ## Project Structure
 
