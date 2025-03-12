@@ -38,8 +38,8 @@ An **AI-powered game engine** to encourage experimentation and competition.
 
 ## Project Structure
 
-- `frontend/` - Contains the React application.
-- `backend/` - Contains the Flask API.
+- `frontend/` - Contains a React application.
+- `backend/` - Contains a Flask API bundle.
 
 ## Getting Started
 
